@@ -1,24 +1,28 @@
+
 .character{
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 400px;
   position:absolute;
-  bottom: 20%;
-  left: 10%;
-  background-image: url('mario.webp');
+  bottom: 5%;
+  left: 37%;
+  background-image: url(scarlett.witch.jpg) ;
   background-size: cover;
 }
 
 .jump{
-  animation: jump 1000ms forwards;
+  animation: jump 6s forwards;
 }
 
 
 @keyframes  jump {
-    50%{
-      bottom: 60%;
+    
+  50%{
+      bottom: 40%;
     }
     100%{
       bottom: 20%;
-      transform: rotate(-360deg);
     }
+
+    mover { 
+      transform: translateY(0); }
 }
