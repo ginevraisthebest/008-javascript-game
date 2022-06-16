@@ -37,7 +37,7 @@ background-image: url(westview.webp);
     }
 }
 
-@keyframes  jumforward {
+@keyframes  jumpforward {
     
   50%{
       left: -60%;
