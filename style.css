@@ -3,11 +3,11 @@
 background-image: url(westview.webp);
 }
 .character{
-  width: 350px;
-  height: 400px;
+  width: 440px;
+  height: 500px;
   position:absolute;
-  bottom: 5%;
-  left: 36%;
+  bottom: 20%;
+  left: 33%;
   background-image: url(wanda.png) ;
   background-size: cover;
 }
@@ -16,10 +16,19 @@ background-image: url(westview.webp);
   width: 350px;
   height: 500px;
   position: absolute;
-  bottom: 6%;
-  left: 70%;
+  top: 18%;
+  left: 100%;
   background-image: url(agatha.png);
   background-size: cover;
+  animation: enemyAnim 4s linear infinite;
+}
+
+.vision{
+  background-image: url(Vision.png) ;
+  width: 450px;
+  height: 500px;
+  animation: jump;
+
 }
 
 .jump{
@@ -29,7 +38,7 @@ background-image: url(westview.webp);
 @keyframes  jump {
     
   50%{
-      bottom: 60%;
+      bottom: 80%;
     }
     100%{
       bottom: 20%;
@@ -37,12 +46,12 @@ background-image: url(westview.webp);
     }
 }
 
-@keyframes  jumpforward {
-    
-  50%{
-      left: -60%;
-    }
+@keyframes enemyAnim {
   
+  100%{
+    left: -20%;
+  }
+
 }
 
  
